@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "face": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "supergateway",
+        "--sse",
+        "https://aip.baidubce.com/mcp/sse?Authorization=<url encoded api key>"
+      ]
+    }
+  }
+}
